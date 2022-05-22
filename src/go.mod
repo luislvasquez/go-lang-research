@@ -1,4 +1,4 @@
-module go-lang-research
+module main
 
 go 1.17
 
