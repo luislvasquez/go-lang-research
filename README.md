@@ -14,6 +14,10 @@
 * `Gin` official documentation is uglier than latinoamerica's corruption stats
 * Coming from `python`, syntax makes sense and shows huge potential
 
+#### Resources:
+* https://rpereira.pt/programming/setup-docker-for-go-development/
+* https://developpaper.com/learn-the-validator-library-of-gin-frameworks-parameter-validation-this-article-is-enough/
+
 ### Milestone 2
 * [ ] Research async implementation approach
 * [ ] Use schema/model validation on queries
