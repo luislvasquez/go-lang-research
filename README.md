@@ -7,7 +7,7 @@
 * [x] Containerize project
 * [x] Add hot reload for dev
 * [x] Configure backend API in seperate files
-* [ ] Extra: Look for pydantic alternative for q. params and payload
+* [x] Extra: Look for pydantic alternative for q. params and payload
 
 #### Summary
 * `Go` local modules import was a nightmare to setup but makes sense after it
