@@ -3,7 +3,7 @@
 ## Research Milestones:
 
 ### Milestone 1
-* [ ] Boot single endpoint
-* [ ] Containerize project
-* [ ] Add hot reload for dev
+* [x] Boot single endpoint
+* [x] Containerize project
+* [x] Add hot reload for dev
 * [ ] Extra: Look for pydantic alternative for q. params
