@@ -8,7 +8,7 @@
 *.so
 *.dylib
 
-# Main binary
+# Output binary
 main
 
 # Output of the go coverage tool, specifically when used with LiteIDE
