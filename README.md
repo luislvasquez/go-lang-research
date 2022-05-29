@@ -19,6 +19,7 @@
 * https://developpaper.com/learn-the-validator-library-of-gin-frameworks-parameter-validation-this-article-is-enough/
 
 ### Milestone 2
-* [ ] Research async implementation approach
-* [ ] Use schema/model validation on queries
+* [x] Research async implementation approach
+* [x] Use schema/model validation on queries
+  * [ ] Validate mandatory and optional body fields
 * [ ] Try simple connection with a sqlite
