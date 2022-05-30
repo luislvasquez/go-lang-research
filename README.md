@@ -21,5 +21,10 @@
 ### Milestone 2
 * [x] Research async implementation approach
 * [x] Use schema/model validation on queries
-  * [ ] Validate mandatory and optional body fields
+  * [x] Validate mandatory and optional body fields
 * [ ] Try simple connection with a sqlite
+
+
+#### Summary
+* Async way to go: Go-rutines
+* Basic validation is out of the box. Complex could be solved using [go-playground validator](https://github.com/go-playground/validator)

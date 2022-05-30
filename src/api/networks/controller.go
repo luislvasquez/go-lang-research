@@ -8,20 +8,21 @@ import (
 func addNetworks(c *gin.Context) {
 	start := time.Now()
 	
-	create(c)
+	response_status, response_msg := create(c)
 
 	elapsedTime := float64(time.Since(start).Milliseconds())/float64(1000)
 
-	c.JSON(200, gin.H{"msg": "Network created", "responseTimeInSeconds": elapsedTime})
+	c.JSON(response_status, gin.H{"msg": response_msg, "responseTimeInSeconds": elapsedTime})
 }
 
 func addNetworksAsync(c *gin.Context) {
 	start := time.Now()
-
-	createAsync(c)
+	
+	response_status, response_msg := createAsync(c)
 
 	elapsedTime := float64(time.Since(start).Milliseconds())/float64(1000)
-	c.JSON(200, gin.H{"msg": "Network creation triggered", "responseTimeInSeconds": elapsedTime})
+
+	c.JSON(response_status, gin.H{"msg": response_msg, "responseTimeInSeconds": elapsedTime})
 }
 
 func getNetworks(c *gin.Context) {
